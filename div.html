@@ -1,18 +1,86 @@
+ <!DOCTYPE html>
 <html>
-    <head><title>
-        welcome to the html
-    </title>
-    </head>
-    <body>
-        <div style="width:100%;height:100%;background-color: gray;">
-           <div style="width:100%;height: 30%;background-color: lightblue">
-           <img src="img49/svpm college logo.png" width="100" height="100"><br>
-           <div style="background-position: right;">Home</div>
-            </div>
-           <div style="width:100%;height:60%;background-color:lavender">
-            <div style="width:20%;height:100%;background-color:lightgoldenrodyellow "></div>
-           </div>
-           <div style="width:100%;height:10%;background-color:lightpink"></div>
-        </div>
-    </body>
+<head>
+<title>HTML Table</title>
+</head>
+<body>
+<form >
+<table border="0" align="center"  >
+<h2>Personal Information</h2>
+<tr>
+<th>Enter your name</th>
+<td><input type="text" name="fname" id="fn1" value=""></td>
+</tr>
+
+<tr>
+<th>Enter your last name</th>
+<td><input type="text" name="lname" id="ln1" value=""></td>
+</tr>
+<tr>
+<th>Select your gender</th>
+<td>
+male<input type="radio" name="g" value="male" checked>
+female<input type="radio" name="g" value="female"/>
+</td>
+</tr>
+<tr>
+<th>Select your DOB</th>
+<td><input type="date" name="number" id="date" value="" ></td>
+</tr>
+<tr>
+<th>Select your hobbies</th>
+<td>
+Reading <input type="checkbox" name="x[]" value="reading"/>
+Playing<input type="checkbox" name="x[]" value="playing"/>
+Travelling<input type="checkbox" name="x[]" value="travelling"/>
+</td>
+</tr>
+<h2>Address Information</h2>
+<tr>
+<th>Select your Country</th>
+<td>
+<select name="country">
+<option value="" >Select your country</option>
+<option value="1">India</option>
+<option value="2">Pakistan</option>
+</select>
+</td>
+</tr>
+<tr>
+<th>Enter your address</th>
+<td><input type="textarea" name="add" id="add" value=""></td>
+</tr>
+<tr>
+<th>Enter your email</th>
+<td><input type="email" name"email" id="mail" value=""></td>
+</tr>
+<tr>
+<th>Enter your mobile</th>
+<td><input type="number" name="number" id="mn" value=""></td>
+</tr>
+<h2>Educationa Information</h2>
+<table border="1" color="black">
+<tr>
+<th>10th percentage</th>
+<td><input type="number" name="number" id="per" value=""></td>
+</tr>
+<tr>
+<th>12th percentage</th>
+<td><input type="number" name="number" id="per2" value=""></td>
+</tr>
+<tr>
+<th>1st year </th>
+<td><input type="number" name="number" id="fe" value=""></td>
+</tr>
+<tr>
+<th>2nd year</th>
+<td><input type="number" name="number" id="se" value=""></td>
+</tr>
+</table>
+
+<input type="submit" name="submit"value="submit"/>
+
+</table>
+</form>
+</body>
 </html>
